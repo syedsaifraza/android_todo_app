@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Todo Application</string>
+    <string name="add_todobutton">Add Todo</string>\
+    <string name="view_todobutton">View Todo</string>
+</resources>
