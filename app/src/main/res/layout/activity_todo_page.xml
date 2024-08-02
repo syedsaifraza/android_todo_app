@@ -9,13 +9,39 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:orientation="vertical">
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/input_title"
+          android:layout_margin="30dp"
+          android:hint="Enter Title"
+         />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/input_description"
+          android:layout_margin="30dp"
+          android:hint="Enter Description"
+          />
+      <Button
+          android:id="@+id/save_todo_btn"
+          android:layout_width="match_parent"
+          android:layout_marginHorizontal="30dp"
+          android:layout_height="wrap_content"
+          android:text="@string/save_todo"
+          android:layout_marginBottom="10dp"
+            />
       <Button
           android:id="@+id/view_todo_btn"
-          android:layout_width="wrap_content"
+          android:layout_width="match_parent"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="5dp"
+          android:backgroundTint="@color/simple_white"
+          android:textColor="@color/primary"
           android:layout_height="wrap_content"
           android:text="@string/view_todobutton"
-          tools:layout_editor_absoluteX="43dp"
-          tools:layout_editor_absoluteY="179dp" />
+           />
    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
